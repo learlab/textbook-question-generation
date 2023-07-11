@@ -1,0 +1,80 @@
+2023-07-07 19:23:59,730 INFO    StreamThr :2363 [internal.py:wandb_internal():86] W&B internal server running at pid: 2363, started at: 2023-07-07 19:23:59.729573
+2023-07-07 19:23:59,734 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: status
+2023-07-07 19:23:59,781 INFO    StreamThr :2363 [internal.py:wandb_internal():86] W&B internal server running at pid: 2363, started at: 2023-07-07 19:23:59.780310
+2023-07-07 19:23:59,781 INFO    StreamThr :2363 [internal.py:wandb_internal():86] W&B internal server running at pid: 2363, started at: 2023-07-07 19:23:59.780310
+2023-07-07 19:23:59,784 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: status
+2023-07-07 19:23:59,784 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: status
+2023-07-07 19:23:59,799 INFO    WriterThread:2363 [datastore.py:open_for_write():85] open: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/run-9f9dqdm2.wandb
+2023-07-07 19:23:59,799 INFO    WriterThread:2363 [datastore.py:open_for_write():85] open: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/run-9f9dqdm2.wandb
+2023-07-07 19:23:59,800 DEBUG   SenderThread:2363 [sender.py:send():375] send: header
+2023-07-07 19:23:59,800 DEBUG   SenderThread:2363 [sender.py:send():375] send: header
+2023-07-07 19:23:59,846 DEBUG   SenderThread:2363 [sender.py:send():375] send: header
+2023-07-07 19:23:59,846 DEBUG   SenderThread:2363 [sender.py:send():375] send: header
+2023-07-07 19:23:59,852 DEBUG   SenderThread:2363 [sender.py:send():375] send: run
+2023-07-07 19:23:59,852 DEBUG   SenderThread:2363 [sender.py:send():375] send: run
+2023-07-07 19:24:00,164 INFO    SenderThread:2363 [dir_watcher.py:__init__():219] watching files in: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/files
+2023-07-07 19:24:00,164 INFO    SenderThread:2363 [dir_watcher.py:__init__():219] watching files in: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/files
+2023-07-07 19:24:00,165 INFO    SenderThread:2363 [sender.py:_start_run_threads():1124] run started: 9f9dqdm2 with start time 1688757839.749847
+2023-07-07 19:24:00,165 INFO    SenderThread:2363 [sender.py:_start_run_threads():1124] run started: 9f9dqdm2 with start time 1688757839.749847
+2023-07-07 19:24:00,165 DEBUG   SenderThread:2363 [sender.py:send():375] send: run
+2023-07-07 19:24:00,165 DEBUG   SenderThread:2363 [sender.py:send():375] send: run
+2023-07-07 19:24:00,305 INFO    SenderThread:2363 [sender.py:send_run():1002] updated run: 9f9dqdm2
+2023-07-07 19:24:00,305 INFO    SenderThread:2363 [sender.py:send_run():1002] updated run: 9f9dqdm2
+2023-07-07 19:24:01,169 INFO    Thread-18 :2363 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/files/config.yaml
+2023-07-07 19:24:01,169 INFO    Thread-18 :2363 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/files/config.yaml
+2023-07-07 19:24:04,740 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:24:04,740 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:24:04,741 INFO    WriterThread:2363 [datastore.py:open_for_write():85] open: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/run-9f9dqdm2.wandb
+2023-07-07 19:24:04,741 INFO    WriterThread:2363 [datastore.py:open_for_write():85] open: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/run-9f9dqdm2.wandb
+2023-07-07 19:24:04,863 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-07 19:24:04,863 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-07 19:24:04,870 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-07 19:24:04,870 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-07 19:24:05,308 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:24:05,308 DEBUG   HandlerThread:2363 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:24:05,740 INFO    SenderThread:2363 [sender.py:finish():1550] shutting down sender
+2023-07-07 19:24:05,740 INFO    SenderThread:2363 [sender.py:finish():1550] shutting down sender
+2023-07-07 19:24:05,741 INFO    HandlerThread:2363 [handler.py:finish():845] shutting down handler
+2023-07-07 19:24:05,741 INFO    HandlerThread:2363 [handler.py:finish():845] shutting down handler
+2023-07-07 19:24:05,861 ERROR   StreamThr :2363 [internal.py:wandb_internal():174] Thread WriterThread:
+Traceback (most recent call last):
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/internal.py", line 380, in _process
+    self._wm.write(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 154, in write
+    write_handler(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 164, in write_request
+    return write_request_handler(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 182, in write_request_status_report
+    self._write(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 131, in _write
+    self.open()
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 71, in open
+    self._ds.open_for_write(self._settings.sync_file)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/datastore.py", line 87, in open_for_write
+    self._fp = open(fname, open_flags)
+FileExistsError: [Errno 17] File exists: '/home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/run-9f9dqdm2.wandb'
+2023-07-07 19:24:05,861 ERROR   StreamThr :2363 [internal.py:wandb_internal():174] Thread WriterThread:
+Traceback (most recent call last):
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/internal.py", line 380, in _process
+    self._wm.write(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 154, in write
+    write_handler(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 164, in write_request
+    return write_request_handler(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 182, in write_request_status_report
+    self._write(record)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 131, in _write
+    self.open()
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/writer.py", line 71, in open
+    self._ds.open_for_write(self._settings.sync_file)
+  File "/home/jovyan/conda_envs/WesleyEnv/lib/python3.10/site-packages/wandb/sdk/internal/datastore.py", line 87, in open_for_write
+    self._fp = open(fname, open_flags)
+FileExistsError: [Errno 17] File exists: '/home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_192359-9f9dqdm2/run-9f9dqdm2.wandb'

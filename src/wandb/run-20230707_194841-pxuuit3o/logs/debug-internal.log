@@ -1,0 +1,220 @@
+2023-07-07 19:48:41,375 INFO    StreamThr :3748 [internal.py:wandb_internal():86] W&B internal server running at pid: 3748, started at: 2023-07-07 19:48:41.374715
+2023-07-07 19:48:41,379 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status
+2023-07-07 19:48:41,402 INFO    WriterThread:3748 [datastore.py:open_for_write():85] open: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/run-pxuuit3o.wandb
+2023-07-07 19:48:41,404 DEBUG   SenderThread:3748 [sender.py:send():375] send: header
+2023-07-07 19:48:41,414 DEBUG   SenderThread:3748 [sender.py:send():375] send: run
+2023-07-07 19:48:41,724 INFO    SenderThread:3748 [dir_watcher.py:__init__():219] watching files in: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files
+2023-07-07 19:48:41,725 INFO    SenderThread:3748 [sender.py:_start_run_threads():1124] run started: pxuuit3o with start time 1688759321.377185
+2023-07-07 19:48:41,725 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: summary_record
+2023-07-07 19:48:41,726 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: check_version
+2023-07-07 19:48:41,727 INFO    SenderThread:3748 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-07-07 19:48:41,728 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: check_version
+2023-07-07 19:48:41,900 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: run_start
+2023-07-07 19:48:41,923 DEBUG   HandlerThread:3748 [system_info.py:__init__():31] System info init
+2023-07-07 19:48:41,923 DEBUG   HandlerThread:3748 [system_info.py:__init__():46] System info init done
+2023-07-07 19:48:41,923 INFO    HandlerThread:3748 [system_monitor.py:start():181] Starting system monitor
+2023-07-07 19:48:41,937 INFO    SystemMonitor:3748 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-07 19:48:41,937 INFO    HandlerThread:3748 [system_monitor.py:probe():201] Collecting system info
+2023-07-07 19:48:41,939 INFO    SystemMonitor:3748 [interfaces.py:start():190] Started cpu monitoring
+2023-07-07 19:48:41,940 INFO    SystemMonitor:3748 [interfaces.py:start():190] Started disk monitoring
+2023-07-07 19:48:41,941 INFO    SystemMonitor:3748 [interfaces.py:start():190] Started gpu monitoring
+2023-07-07 19:48:41,944 INFO    SystemMonitor:3748 [interfaces.py:start():190] Started memory monitoring
+2023-07-07 19:48:41,945 INFO    SystemMonitor:3748 [interfaces.py:start():190] Started network monitoring
+2023-07-07 19:48:42,052 DEBUG   HandlerThread:3748 [system_info.py:probe():195] Probing system
+2023-07-07 19:48:42,056 DEBUG   HandlerThread:3748 [system_info.py:_probe_git():180] Probing git
+2023-07-07 19:48:42,071 DEBUG   HandlerThread:3748 [system_info.py:_probe_git():188] Probing git done
+2023-07-07 19:48:42,071 DEBUG   HandlerThread:3748 [system_info.py:probe():240] Probing system done
+2023-07-07 19:48:42,071 DEBUG   HandlerThread:3748 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-75-generic-x86_64-with-glibc2.35', 'python': '3.10.9', 'heartbeatAt': '2023-07-07T19:48:42.052657', 'startedAt': '2023-07-07T19:48:41.344668', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'active-projects/textbook-question-generation/src/mpnet-preparation.ipynb', 'root': '/home/jovyan/active-projects/textbook-question-generation', 'git': {'remote': 'https://github.com/learlab/textbook-question-generation.git', 'commit': '3447b636217edab44787cd2b1c6c6e2fb494b5b3'}, 'email': 'tiedaar@gmail.com', 'host': 'jupyter-wesley-2dmorris', 'username': 'jovyan', 'executable': '/home/jovyan/conda_envs/WesleyEnv/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2002.4466874999998, 'min': 800.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 800.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}], 'disk': {'total': 929.1299057006836, 'used': 517.6108932495117}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 251.53086471557617}}
+2023-07-07 19:48:42,072 INFO    HandlerThread:3748 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-07 19:48:42,072 INFO    HandlerThread:3748 [system_monitor.py:probe():214] Publishing system info
+2023-07-07 19:48:42,072 DEBUG   HandlerThread:3748 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-07 19:48:42,073 DEBUG   HandlerThread:3748 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-07 19:48:42,073 DEBUG   HandlerThread:3748 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-07 19:48:42,730 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/requirements.txt
+2023-07-07 19:48:42,730 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/wandb-summary.json
+2023-07-07 19:48:42,731 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/conda-environment.yaml
+2023-07-07 19:48:47,451 DEBUG   HandlerThread:3748 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-07 19:48:47,453 INFO    HandlerThread:3748 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-07 19:48:47,457 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:48:47,458 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-07 19:48:47,459 DEBUG   SenderThread:3748 [sender.py:send():375] send: files
+2023-07-07 19:48:47,459 INFO    SenderThread:3748 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-07-07 19:48:47,501 DEBUG   SenderThread:3748 [sender.py:send():375] send: telemetry
+2023-07-07 19:48:47,502 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-07 19:48:47,503 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: stop_status
+2023-07-07 19:48:47,728 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/conda-environment.yaml
+2023-07-07 19:48:47,729 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/wandb-metadata.json
+2023-07-07 19:48:47,848 INFO    wandb-upload_0:3748 [upload_job.py:push():137] Uploaded file /tmp/tmp3mkxcwylwandb/g2iir0dz-wandb-metadata.json
+2023-07-07 19:48:49,343 DEBUG   SenderThread:3748 [sender.py:send():375] send: config
+2023-07-07 19:48:49,345 DEBUG   SenderThread:3748 [sender.py:send():375] send: metric
+2023-07-07 19:48:49,345 DEBUG   SenderThread:3748 [sender.py:send():375] send: telemetry
+2023-07-07 19:48:49,346 DEBUG   SenderThread:3748 [sender.py:send():375] send: metric
+2023-07-07 19:48:49,346 WARNING SenderThread:3748 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-07-07 19:48:49,730 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/output.log
+2023-07-07 19:48:51,731 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/output.log
+2023-07-07 19:48:52,347 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:48:57,348 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:02,350 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:02,499 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-07 19:49:02,500 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: stop_status
+2023-07-07 19:49:07,560 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:12,566 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:12,745 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/config.yaml
+2023-07-07 19:49:17,499 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-07 19:49:17,500 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: stop_status
+2023-07-07 19:49:18,566 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:23,568 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:28,570 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:32,498 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-07 19:49:32,499 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: stop_status
+2023-07-07 19:49:34,554 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:39,556 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:41,946 DEBUG   SystemMonitor:3748 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-07 19:49:41,950 DEBUG   SenderThread:3748 [sender.py:send():375] send: stats
+2023-07-07 19:49:44,953 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:47,498 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-07 19:49:47,500 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: stop_status
+2023-07-07 19:49:50,561 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:49:55,563 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:50:00,564 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:50:02,498 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-07 19:50:02,499 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: stop_status
+2023-07-07 19:50:06,296 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-07 19:50:06,301 DEBUG   SenderThread:3748 [sender.py:send():375] send: metric
+2023-07-07 19:50:06,302 DEBUG   SenderThread:3748 [sender.py:send():375] send: metric
+2023-07-07 19:50:06,302 DEBUG   SenderThread:3748 [sender.py:send():375] send: metric
+2023-07-07 19:50:06,303 DEBUG   SenderThread:3748 [sender.py:send():375] send: metric
+2023-07-07 19:50:06,303 DEBUG   SenderThread:3748 [sender.py:send():375] send: metric
+2023-07-07 19:50:06,303 DEBUG   SenderThread:3748 [sender.py:send():375] send: metric
+2023-07-07 19:50:06,303 DEBUG   SenderThread:3748 [sender.py:send():375] send: history
+2023-07-07 19:50:06,304 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: summary_record
+2023-07-07 19:50:06,304 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:50:06,311 INFO    SenderThread:3748 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-07-07 19:50:06,311 DEBUG   SenderThread:3748 [sender.py:send():375] send: telemetry
+2023-07-07 19:50:06,312 DEBUG   SenderThread:3748 [sender.py:send():375] send: exit
+2023-07-07 19:50:06,312 INFO    SenderThread:3748 [sender.py:send_exit():598] handling exit code: 0
+2023-07-07 19:50:06,313 INFO    SenderThread:3748 [sender.py:send_exit():600] handling runtime: 84
+2023-07-07 19:50:06,313 INFO    SenderThread:3748 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-07-07 19:50:06,314 INFO    SenderThread:3748 [sender.py:send_exit():606] send defer
+2023-07-07 19:50:06,314 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:06,314 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-07 19:50:06,315 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:06,315 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-07-07 19:50:06,316 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 1
+2023-07-07 19:50:06,316 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:06,316 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-07 19:50:06,317 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:06,317 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-07-07 19:50:06,317 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 2
+2023-07-07 19:50:06,318 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:06,318 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-07 19:50:06,318 INFO    HandlerThread:3748 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-07 19:50:06,319 INFO    HandlerThread:3748 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-07 19:50:06,320 DEBUG   SystemMonitor:3748 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-07 19:50:06,320 INFO    HandlerThread:3748 [interfaces.py:finish():202] Joined disk monitor
+2023-07-07 19:50:06,321 DEBUG   SystemMonitor:3748 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-07 19:50:06,348 INFO    HandlerThread:3748 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-07 19:50:06,349 INFO    HandlerThread:3748 [interfaces.py:finish():202] Joined memory monitor
+2023-07-07 19:50:06,349 INFO    HandlerThread:3748 [interfaces.py:finish():202] Joined network monitor
+2023-07-07 19:50:06,351 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:06,351 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-07-07 19:50:06,351 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 3
+2023-07-07 19:50:06,351 DEBUG   SenderThread:3748 [sender.py:send():375] send: stats
+2023-07-07 19:50:06,353 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:06,353 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-07 19:50:06,354 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:06,354 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-07-07 19:50:06,354 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 4
+2023-07-07 19:50:06,355 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:06,355 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-07 19:50:06,356 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:06,356 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-07-07 19:50:06,356 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 5
+2023-07-07 19:50:06,356 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:06,357 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-07 19:50:06,358 DEBUG   SenderThread:3748 [sender.py:send():375] send: summary
+2023-07-07 19:50:06,359 INFO    SenderThread:3748 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-07-07 19:50:06,359 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:06,359 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-07-07 19:50:06,359 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 6
+2023-07-07 19:50:06,360 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:06,360 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-07 19:50:06,361 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:06,361 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-07-07 19:50:06,367 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: status_report
+2023-07-07 19:50:06,530 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 7
+2023-07-07 19:50:06,531 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:06,531 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-07 19:50:06,532 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:06,532 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-07-07 19:50:06,781 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/config.yaml
+2023-07-07 19:50:06,782 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/wandb-summary.json
+2023-07-07 19:50:07,252 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 8
+2023-07-07 19:50:07,252 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:07,253 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-07 19:50:07,253 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:07,254 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-07-07 19:50:07,254 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 9
+2023-07-07 19:50:07,254 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:07,254 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-07 19:50:07,255 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:07,255 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-07-07 19:50:07,256 INFO    SenderThread:3748 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-07-07 19:50:07,309 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-07 19:50:07,782 INFO    Thread-12 :3748 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/output.log
+2023-07-07 19:50:07,783 INFO    SenderThread:3748 [dir_watcher.py:finish():395] scan: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files
+2023-07-07 19:50:07,784 INFO    SenderThread:3748 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/conda-environment.yaml conda-environment.yaml
+2023-07-07 19:50:07,784 INFO    SenderThread:3748 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/requirements.txt requirements.txt
+2023-07-07 19:50:07,785 INFO    SenderThread:3748 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/output.log output.log
+2023-07-07 19:50:07,785 INFO    SenderThread:3748 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/wandb-summary.json wandb-summary.json
+2023-07-07 19:50:07,808 INFO    SenderThread:3748 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/wandb-metadata.json wandb-metadata.json
+2023-07-07 19:50:07,809 INFO    SenderThread:3748 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/config.yaml config.yaml
+2023-07-07 19:50:07,815 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 10
+2023-07-07 19:50:07,816 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: poll_exit
+2023-07-07 19:50:07,817 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:07,819 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-07 19:50:07,825 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:07,827 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-07-07 19:50:07,827 INFO    SenderThread:3748 [file_pusher.py:finish():167] shutting down file pusher
+2023-07-07 19:50:08,105 INFO    wandb-upload_0:3748 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/requirements.txt
+2023-07-07 19:50:08,243 INFO    wandb-upload_1:3748 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/conda-environment.yaml
+2023-07-07 19:50:08,310 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-07 19:50:08,311 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: poll_exit
+2023-07-07 19:50:08,316 INFO    wandb-upload_2:3748 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/output.log
+2023-07-07 19:50:08,325 INFO    wandb-upload_4:3748 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/config.yaml
+2023-07-07 19:50:08,327 INFO    wandb-upload_3:3748 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/files/wandb-summary.json
+2023-07-07 19:50:08,528 INFO    Thread-11 (_thread_body):3748 [sender.py:transition_state():626] send defer: 11
+2023-07-07 19:50:08,529 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:08,529 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-07 19:50:08,530 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:08,530 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-07-07 19:50:08,530 INFO    SenderThread:3748 [file_pusher.py:join():172] waiting for file pusher
+2023-07-07 19:50:08,530 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 12
+2023-07-07 19:50:08,531 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:08,531 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-07 19:50:08,532 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:08,532 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-07-07 19:50:09,021 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 13
+2023-07-07 19:50:09,022 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:09,022 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-07 19:50:09,023 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:09,023 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-07-07 19:50:09,024 INFO    SenderThread:3748 [sender.py:transition_state():626] send defer: 14
+2023-07-07 19:50:09,024 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: defer
+2023-07-07 19:50:09,025 INFO    HandlerThread:3748 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-07 19:50:09,025 DEBUG   SenderThread:3748 [sender.py:send():375] send: final
+2023-07-07 19:50:09,026 DEBUG   SenderThread:3748 [sender.py:send():375] send: footer
+2023-07-07 19:50:09,026 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: defer
+2023-07-07 19:50:09,026 INFO    SenderThread:3748 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-07-07 19:50:09,028 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-07 19:50:09,029 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: poll_exit
+2023-07-07 19:50:09,031 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: server_info
+2023-07-07 19:50:09,031 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-07 19:50:09,032 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-07 19:50:09,034 DEBUG   SenderThread:3748 [sender.py:send_request():402] send_request: server_info
+2023-07-07 19:50:09,160 DEBUG   HandlerThread:3748 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-07 19:50:09,161 INFO    HandlerThread:3748 [handler.py:finish():845] shutting down handler
+2023-07-07 19:50:10,034 INFO    WriterThread:3748 [datastore.py:close():298] close: /home/jovyan/active-projects/textbook-question-generation/src/wandb/run-20230707_194841-pxuuit3o/run-pxuuit3o.wandb
+2023-07-07 19:50:10,158 INFO    SenderThread:3748 [sender.py:finish():1550] shutting down sender
+2023-07-07 19:50:10,159 INFO    SenderThread:3748 [file_pusher.py:finish():167] shutting down file pusher
+2023-07-07 19:50:10,160 INFO    SenderThread:3748 [file_pusher.py:join():172] waiting for file pusher
