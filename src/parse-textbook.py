@@ -26,14 +26,15 @@ def get_args():
     return parser.parse_args()
 
 verbose = False
-subsections_to_skip = [
-    'learn with videos',
-    'please write your summary below',
-    'please your write summary below', # ... a perfect example of why this approach is doomed. More than 10 sections have this typo.
-    'bring it home',
-    'clear it up',
-    'work it out',
-]
+subsections_to_skip = []
+#[
+#     'learn with videos',
+#     'please write your summary below',
+#     'please your write summary below', # ... a perfect example of why this approach is doomed. More than 10 sections have this typo.
+#     'bring it home',
+#     'clear it up',
+#     'work it out',
+# ]
 
 
 # Define functions
