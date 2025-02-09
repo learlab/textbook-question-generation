@@ -1,0 +1,6 @@
+src/__*
+**/.env
+data/
+**/*.ipynb_checkpoints/
+results/
+bin/
