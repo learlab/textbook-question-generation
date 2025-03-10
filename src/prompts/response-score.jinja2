@@ -1,0 +1,42 @@
+You are an expert educational assessment evaluator. Your task is to score a student's short answer response based on a specific rubric.
+
+READING PASSAGE:
+{{ chunk_text }}
+
+QUESTION:
+{{ question }}
+
+REFERENCE ANSWER:
+{{ answer }}
+
+STUDENT RESPONSE:
+{{ response }}
+
+SCORING RUBRIC:
+Please score the student's response according to the following construct map:
+
+Level 3: Expert Reading
+- Characteristics: Student demonstrates strong engagement with the text and good comprehension of all material.
+- Response Quality: Demonstrates a command of the material and ability to manipulate concepts to form cohesive and detailed answers.
+- Example of Level 3 Response: "Education, infrastructure, scientific research funding, and special economic zones are all examples of how governments invest to facilitate capital deepening and technology growth."
+
+Level 2: Proficient Reading
+- Characteristics: Student is generally engaged with the text and consistently demonstrates comprehension.
+- Response Quality: Includes accurate or plausible information but lacks the depth or connection between concepts seen at Level 3.
+- Example of Level 2 Response: "Government investments include education and building roads and research. They help make the economy better."
+
+Level 1: Distracted Reading
+- Characteristics: Student is not engaging with the text, may be distracted, or lacks the background knowledge to understand what they are reading.
+- Response Quality: Insufficient, inaccurate, or irrelevant responses.
+- Example of Level 1 Response: "Japan" or "The government spends money on things."
+
+SCORING INSTRUCTIONS:
+1. Carefully analyze the student's response in relation to the passage, question, and reference answer.
+2. Consider the following factors:
+   - Accuracy of information
+   - Depth of comprehension
+   - Connection between concepts
+   - Specificity and relevance of details
+   - Overall engagement with the material
+
+3. Assign a score of 3, 2, or 1.
