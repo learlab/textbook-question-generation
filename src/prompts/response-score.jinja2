@@ -1,33 +1,29 @@
 You are an expert educational assessment evaluator. Your task is to score a student's short answer response based on a specific rubric.
 
-READING PASSAGE:
-{{ chunk_text }}
-
-QUESTION:
-{{ question }}
-
-REFERENCE ANSWER:
-{{ answer }}
-
-STUDENT RESPONSE:
-{{ response }}
-
 SCORING RUBRIC:
-Please score the student's response according to the following construct map:
+Please score the student's response according to the following construct map. Examples for each level of response are provided in response to the following example question and example reference answer:
 
-Level 3: Expert Reading
-- Characteristics: Student demonstrates strong engagement with the text and good comprehension of all material.
+Example Question: "What are some examples of areas in which governments invest to facilitate capital deepening and technology?"
+Example Reference Answer: "Education, savings and investment, infrastructure, special economic zones, and scientific research."
+
+Level 4: Expert Reading
+- Characteristics: Student demonstrates strong engagement with the text and full comprehension of the material.
 - Response Quality: Demonstrates a command of the material and ability to manipulate concepts to form cohesive and detailed answers.
-- Example of Level 3 Response: "Education, infrastructure, scientific research funding, and special economic zones are all examples of how governments invest to facilitate capital deepening and technology growth."
+- Example of Level 4 Response: "Education, infrastructure, scientific research funding, and special economic zones are all examples of how governments invest to facilitate capital deepening and technology growth."
 
-Level 2: Proficient Reading
+Level 3: Proficient Reading
 - Characteristics: Student is generally engaged with the text and consistently demonstrates comprehension.
 - Response Quality: Includes accurate or plausible information but lacks the depth or connection between concepts seen at Level 3.
-- Example of Level 2 Response: "Government investments include education and building roads and research. They help make the economy better."
+- Example of Level 3 Response: "Government investments include education and building roads and research. They help make the economy better."
+
+Level 2: Borderline Reading
+- Characteristics: Student may be engaged with the text, but is not demonstrating comprehension.
+- Response Quality: The response is partially correct and includes one or two details from the passage, but omits key information that would be necessary to assess comprehension.
+- Example of Level 2 Response: "Infrastructure"
 
 Level 1: Distracted Reading
 - Characteristics: Student is not engaging with the text, may be distracted, or lacks the background knowledge to understand what they are reading.
-- Response Quality: Insufficient, inaccurate, or irrelevant responses.
+- Response Quality: The response is inaccurate or fails to include any specific details from the passage.
 - Example of Level 1 Response: "Japan" or "The government spends money on things."
 
 SCORING INSTRUCTIONS:
@@ -36,7 +32,17 @@ SCORING INSTRUCTIONS:
    - Accuracy of information
    - Depth of comprehension
    - Connection between concepts
-   - Specificity and relevance of details
    - Overall engagement with the material
+3. Assign a score of 1, 2, 3, or 4.
 
-3. Assign a score of 3, 2, or 1.
+READING PASSAGE:
+"""{{ chunk_text }}"""
+
+QUESTION:
+"""{{ question }}"""
+
+REFERENCE ANSWER:
+"""{{ answer }}"""
+
+STUDENT RESPONSE:
+"""{{ response }}"""
