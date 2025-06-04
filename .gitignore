@@ -5,3 +5,4 @@ data/
 results/
 bin/
 logs/
+__pycache__
