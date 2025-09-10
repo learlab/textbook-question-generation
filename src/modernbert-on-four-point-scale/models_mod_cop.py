@@ -28,14 +28,14 @@ class ModelInput:
 
 
 class Bleurt:
+    model_name = bleurt_model
     threshold = bleurt_threshold
 
-    def __init__(self, name_or_path=bleurt_model):
-        self.model_name = name_or_path
+    def __init__(self):
         self.classifier = pipeline(
             "text-classification",
             model=self.model_name,
-            device="cuda",
+            # device="cuda",
         )
 
     def __call__(self, model_input: ModelInput) -> int:
@@ -46,15 +46,15 @@ class Bleurt:
 
 
 class Mpnet:
+    # model_name = mpnet_model
     revision = "77b846ec4606bfcfdf913888d7f0ab51f977a579"
 
-    def __init__(self, name_or_path=mpnet_model):
-        self.model_name = name_or_path
+    def __init__(self, model_path: str):
         self.classifier = pipeline(
             "text-classification",
-            model=self.model_name,
+            model=model_path,
             revision=self.revision,
-            device="cuda",
+            # device="cuda",
         )
 
     def __call__(self, model_input: ModelInput) -> int:
@@ -65,15 +65,15 @@ class Mpnet:
 
 
 class ModernBERT:
+    model_name = modernbert_model
     tokenizer_name = "answerdotai/ModernBERT-base"
 
-    def __init__(self, name_or_path=modernbert_model):
-        self.model_name = name_or_path
+    def __init__(self):
         self.classifier = pipeline(
             "text-classification",
             model=self.model_name,
             tokenizer=AutoTokenizer.from_pretrained(self.tokenizer_name),
-            device="cuda",
+            # device="cuda",
         )
 
     def __call__(self, model_input: ModelInput) -> int:
@@ -82,39 +82,4 @@ class ModernBERT:
 
         seq = f"{model_input.text}\n\n\n{model_input.question}\n\n\n{model_input.candidate}"
         out = self.classifier(seq)[0]
-        return out["score"]
-
-
-class ModernBERT_v2:
-    tokenizer_name = "answerdotai/ModernBERT-base"
-
-    def __init__(self, name_or_path=modernbert_model):
-        self.model_name = name_or_path
-        self.classifier = pipeline(
-            "text-classification",
-            model=self.model_name,
-            tokenizer=AutoTokenizer.from_pretrained(self.tokenizer_name),
-            device="cuda",
-        )
-
-    def __call__(self, model_input: ModelInput) -> int:
-        if (
-            not model_input.text
-            or not model_input.question
-            or not model_input.reference
-            or not model_input.candidate
-        ):
-            raise ValueError(
-                "ModernBERT_v2 requires 'text', 'question', 'reference', 'candidate' fields"
-            )
-
-        seq = "\n\n\n".join(
-            [
-                f"Passage: {model_input.text}",
-                f"Question: {model_input.question}",
-                f"Reference Answer: {model_input.reference}",
-                f"Student Response: {model_input.candidate}",
-            ]
-        )
-        out = self.classifier(seq)[0]
-        return out["score"]
+        return 1 if out["score"] > 2 else 0
