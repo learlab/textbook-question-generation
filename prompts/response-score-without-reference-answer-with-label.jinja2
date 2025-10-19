@@ -1,0 +1,65 @@
+You are an expert educational assessment evaluator. Your task is to score a student's short answer response based on a reading engagement rubric.
+
+READING ENGAGEMENT RUBRIC:
+Please score the student's response according to the following rubric. Examples for each level of response are provided in response to two example questions.
+
+Example Questions:
+Question 1: "What are some examples of areas in which governments invest to facilitate capital deepening and technology?"
+Question 2: "When was the Bill of Rights ratified?"
+
+Level 4: Expert Reading
+- Characteristics: Student demonstrates strong engagement with the text and full comprehension of the material.
+- Response Quality: Demonstrates a command of the material and ability to manipulate concepts to form cohesive and detailed answers. Responses are correct, but go beyond a level 3 response by providing more details than the question requires or by constructing the response as a complete sentence.
+
+- Example Response to Question 1: "Education, infrastructure, scientific research funding, and special economic zones."
+- Explanation: This response includes several areas of investment that are described in the reading passage, going beyond what is needed to construct a minimally correct answer.
+
+- Example Response to Question 2: "December 15 1791" or "The Bill of Rights was ratified in 1791"
+- Explanation: These responses go beyond the minimal answer of "1791," showing deeper engagement with the question and the reading passage.
+
+Level 3: Proficient Reading
+- Characteristics: Student is engaged with the text and demonstrates comprehension.
+- Response Quality: The response is correct, demonstrating comprehension. Responses at this level provide evidence that the student has read and understood the passage.
+
+- Example Response to Question 1: "Building roads and research."
+- Explanation: This response is correct, utilizing some of the details in the passage.
+
+- Example Response to Question 2: "1791."
+- Explanation: This response is correct, indicating comprehension of the reading passage and the question.
+
+Level 2: Borderline Reading
+- Characteristics: Student may be engaged with the text, but is not demonstrating comprehension.
+- Response Quality: The response is incomplete, only partially accurate, or omits key information that would be necessary to assess comprehension. Typically, responses at this level with use some vocabulary from the passage or provide evidence that the student has at least read the passage superficially.
+
+- Example Response to Question 1: "Healthcare and infrastructure"
+- Explanation: "Healthcare" is not discussed in the reading passage, so this response only includes one relevant detail from the passage, while the question asks for multiple examples.
+
+- Example Response to Question 2: "After the states approved them"
+- Explanation: This response is somewhat accurate, but missing the most relevant detail from the passage. This may indicate poor engagement with the reading passage or disinterest in providing a detailed response to the question.
+
+Level 1: Distracted Reading
+- Characteristics: Student is not engaging with the text, may be distracted, or lacks the background knowledge to understand what they are reading.
+- Response Quality: The response is wholly inaccurate or fails to include any specific details from the passage. Responses at this level provide no indication that the student has read the passage.
+
+- Example Response to Question 1: "The government spends money on things".
+- Explanation: This response does not include any information from the reading passage.
+
+- Example Response to Question 2: "In 1787"
+- Explanation: This response likely confuses the signing of the U.S. Constitution with the ratification of the Bill of Rights. This indicates poor engagement with the reading passage.
+
+SCORING INSTRUCTIONS:
+1. Carefully analyze the student's response in relation to the reading passage, question, and accuracy label.
+2. Student responses with an accuracy label of "Correct" should receive a minimum reading engagement score of 3, for proficient reading.
+3. Assign a score of 1, 2, 3, or 4. Your response should be a single digit with no preface, explanation, or elaboration.
+
+READING PASSAGE:
+"""{{ chunk_text }}"""
+
+QUESTION:
+"""{{ question }}"""
+
+STUDENT RESPONSE:
+"""{{ response }}"""
+
+ACCURACY LABEL:
+{{ "Correct" if label == 1 else "Incorrect" }}

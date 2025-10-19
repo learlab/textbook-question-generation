@@ -42,7 +42,7 @@ class Bleurt:
         sequence = f"{model_input.candidate}[SEP]{model_input.reference}"
         result = self.classifier(sequence)
         score = result[0]["score"]
-        return 1 if score > self.threshold else 0
+        return 1.0 if score > self.threshold else 0.0
 
 
 class Mpnet:
@@ -61,7 +61,7 @@ class Mpnet:
         sequence = f"{model_input.candidate}</s>{model_input.reference}"
         result = self.classifier(sequence)
         label = result[0]["label"]
-        return 1 if label == "correct_answer" else 0
+        return 1.0 if label == "correct_answer" else 0.0
 
 
 class ModernBERT:
